@@ -1,0 +1,9 @@
+/psi/gradle/wrapper/gradle-wrapper.jar
+/psi/.gradle/
+/psi/build/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr

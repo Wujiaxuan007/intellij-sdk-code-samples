@@ -1,0 +1,24 @@
+<idea-plugin>
+    <id>pers.wjx.plugin.demo.psi</id>
+    <name>psi</name>
+    <vendor email="wujiaxuan1995@gmail.com">@卖话的人</vendor>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.java</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <action id="NewTrantorGroupInProjectView"
+                class="pers.wjx.plugin.demo.CreatePsiJavaFile"
+                text="Create Java File">
+            <!-- 动作加到项目目录右键的弹窗中，在 New 操作组的下面，也就是第二个操作 -->
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="after" relative-to-action="WeighingNewGroup"/>
+            <!--快捷键设置-->
+            <keyboard-shortcut keymap="$default" first-keystroke="meta alt ENTER"/>
+        </action>
+    </actions>
+</idea-plugin>

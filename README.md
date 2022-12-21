@@ -10,7 +10,7 @@
 ## 说明
 
 - Java 11 & Kotlin 混合开发
-- Gradle 7.1
+- Gradle 7.3
 
 
 ## 代码示例
@@ -23,6 +23,9 @@
 | [PSI](./psi)                   | PSI 获取、修改、跳转等                       |
 | [Module](./module)             | 自定义模块类型，可通过 File-> New-> Module 新建模块 |
 | [Compatible](./compatible_api) | sdk 兼容性问题                       |
+
+## 运行
+
 
 ## 我是如何学习的？
 好几个网友问我要插件开发的学习资料，还是那句话 "官方文档、开源插件、社区、IDEA源码是插件开发最好的老师。"。
