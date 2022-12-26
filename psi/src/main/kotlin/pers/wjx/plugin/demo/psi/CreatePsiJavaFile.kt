@@ -1,11 +1,11 @@
-package pers.wjx.plugin.demo
+package pers.wjx.plugin.demo.psi
 
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.actionSystem.CommonDataKeys
 import com.intellij.psi.PsiDirectory
-import pers.wjx.plugin.demo.common.Icons
-import pers.wjx.plugin.demo.dialog.CreatePsiJavaFileDialog
+import pers.wjx.plugin.demo.psi.common.Icons
+import pers.wjx.plugin.demo.psi.dialog.PsiJavaFileDialog
 
 /**
  * 创建一个 java 类
@@ -21,7 +21,7 @@ class CreatePsiJavaFile : AnAction() {
             psiElement!!.containingFile.containingDirectory
         }
         // 弹出对话框
-        CreatePsiJavaFileDialog(psiDirectory).show()
+        PsiJavaFileDialog(psiDirectory).show()
     }
 
     override fun update(e: AnActionEvent) {

@@ -11,14 +11,33 @@
         <!-- Add your extensions here -->
     </extensions>
 
-    <actions>
-        <action id="NewTrantorGroupInProjectView"
-                class="pers.wjx.plugin.demo.CreatePsiJavaFile"
+    <actions resource-bundle="messages.PsiBundle">
+        <action id="CreatePsiJavaFile"
+                class="pers.wjx.plugin.demo.psi.CreatePsiJavaFile"
                 text="Create Java File">
             <!-- 动作加到项目目录右键的弹窗中，在 New 操作组的下面，也就是第二个操作 -->
             <add-to-group group-id="ProjectViewPopupMenu" anchor="after" relative-to-action="WeighingNewGroup"/>
             <!--快捷键设置-->
             <keyboard-shortcut keymap="$default" first-keystroke="meta alt ENTER"/>
         </action>
+        <action id="EditPsiJavaFile"
+                class="pers.wjx.plugin.demo.psi.EditPsiJavaFile"
+                text="Edit Java File">
+            <!-- 动作加到项目目录右键的弹窗中，在 CreatePsiJavaFile 操作的下面，也就是第三个操作 -->
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="after" relative-to-action="CreatePsiJavaFile"/>
+        </action>
+        <action id="DeletePsiFile"
+                class="pers.wjx.plugin.demo.psi.DeletePsiFile"
+                text="Delete File">
+            <!-- 动作加到项目目录右键的弹窗中，在 CreatePsiJavaFile 操作的下面，也就是第四个操作 -->
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="after" relative-to-action="EditPsiJavaFile"/>
+        </action>
+        <group id="GeneratePsiElementActionGroup"
+               class="pers.wjx.plugin.demo.psi.GeneratePsiElementActionGroup"
+               popup="false">
+            <separator/>
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+            <separator/>
+        </group>
     </actions>
 </idea-plugin>

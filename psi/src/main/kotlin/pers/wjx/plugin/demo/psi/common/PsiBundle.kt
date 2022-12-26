@@ -1,4 +1,4 @@
-package pers.wjx.plugin.demo.common
+package pers.wjx.plugin.demo.psi.common
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.PropertyKey

@@ -1,4 +1,4 @@
-package pers.wjx.plugin.demo.common
+package pers.wjx.plugin.demo.psi.common
 
 import com.intellij.notification.Notification
 import com.intellij.notification.NotificationType
