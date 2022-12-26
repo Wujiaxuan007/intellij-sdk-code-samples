@@ -14,7 +14,7 @@
 
 ## 代码示例
 
-> 官方也提供了简单的代码示例: [官方示例](https://zhuanlan.zhihu.com/p/400059601)
+> 官方也提供了简单的代码示例: [官方示例](https://github.com/JetBrains/intellij-sdk-code-samples)
 
 未完待续 ...
 
