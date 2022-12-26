@@ -1,4 +1,4 @@
-# PSI [![JetBrains IntelliJ Platform SDK Docs](https://jb.gg/badges/docs.svg)][docs:actions]
+# PSI [![JetBrains IntelliJ Platform SDK Docs](https://jb.gg/badges/docs.svg)][docs]
 
 ## Quickstart
 
@@ -6,7 +6,7 @@ PSI 项目通过实现通过消息对话框的 "AnAction" 来演示与 PSI 相�
 
 - 创建 PSI 文件并编辑器导航定位到新建文件
     - Java 文件、方法、变量、注解
- - 查找 PSI
+- 查找 PSI
 - 修改 PSI
 - 删除 PSI
 - 其他：
@@ -24,18 +24,24 @@ PSI 项目通过实现通过消息对话框的 "AnAction" 来演示与 PSI 相�
 | `EditPsiJavaFile` | [EditPsiJavaFile][file:EditPsiJavaFile] | 编辑类 <br> ![generate](https://cdn.nlark.com/yuque/0/2022/gif/1233924/1672024090711-601acf86-2a6b-4a38-9ca5-97aa5bd3d590.gif)            |
 | `DeletePsiFile` | [DeletePsiFile][file:DeletePsiFile] | 删除文件 <br> ![generate](https://cdn.nlark.com/yuque/0/2022/gif/1233924/1672024247066-c5164979-211d-47dc-87a3-cc20e1acbb80.gif)           |
 
-### More
+### Tips
+
 - 查看文件 PSI 结构, Gradle:runIde --> Tools | View PSI Structure of Current File...
-    ![viewPsi](https://cdn.nlark.com/yuque/0/2022/gif/1233924/1672025355110-acf04752-ea92-4cec-b7e3-a8fa8f85bb90.gif)
+  ![viewPsi](https://cdn.nlark.com/yuque/0/2022/gif/1233924/1672025355110-acf04752-ea92-4cec-b7e3-a8fa8f85bb90.gif)
 - 文件类型 `com.intellij.openapi.fileTypes.FileType`
-  - [自定义文件类型](https://plugins.jetbrains.com/docs/intellij/registering-file-type.html#registration)
-  - `com.intellij.psi.search.FileTypeIndex.getFiles` 可以在指定范围查找指定类型文件
-  
+    - [自定义文件类型](https://plugins.jetbrains.com/docs/intellij/registering-file-type.html#registration)
+    - `com.intellij.psi.search.FileTypeIndex.getFiles` 可以在指定范围查找指定类型文件
+
 [docs]: https://plugins.jetbrains.com/docs/intellij/
 
 [docs:actions]: https://plugins.jetbrains.com/docs/intellij/psi.html
+
 [file:CreatePsiJavaFile]: ./src/main/kotlin/pers/wjx/plugin/demo/psi/CreatePsiJavaFile.kt
+
 [file:GeneratePsiMethod]: ./src/main/kotlin/pers/wjx/plugin/demo/psi/GeneratePsiMethod.kt
+
 [file:GeneratePsiField]: ./src/main/kotlin/pers/wjx/plugin/demo/psi/GeneratePsiField.kt
+
 [file:EditPsiJavaFile]: ./src/main/kotlin/pers/wjx/plugin/demo/psi/EditPsiJavaFile.kt
+
 [file:DeletePsiFile]: ./src/main/kotlin/pers/wjx/plugin/demo/psi/DeletePsiFile.kt

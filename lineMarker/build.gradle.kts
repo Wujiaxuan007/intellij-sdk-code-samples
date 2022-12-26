@@ -16,16 +16,26 @@ java {
     sourceCompatibility = JavaVersion.VERSION_11
 }
 
-// See https://github.com/JetBrains/gradle-intellij-plugin/
+dependencies {
+
+}
+
 intellij {
     version.set("2021.3")
-}
-tasks {
-    patchPluginXml {
-        changeNotes.set(
-            """
-            Add change notes here.<br>
-            <em>most HTML tags may be used</em>        """.trimIndent()
+    plugins.set(
+        listOf(
+            "com.intellij.java"
         )
+    )
+}
+
+tasks {
+    compileKotlin {
+        kotlinOptions.jvmTarget = "11"
+    }
+
+    patchPluginXml {
+        version.set("${project.version}")
+        sinceBuild.set("203")
     }
 }

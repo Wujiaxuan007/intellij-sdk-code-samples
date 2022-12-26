@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>pers.wjx.plugin.demo.psi</id>
-    <name>psi</name>
+    <name>Psi</name>
     <vendor email="wujiaxuan1995@gmail.com">@卖话的人</vendor>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html

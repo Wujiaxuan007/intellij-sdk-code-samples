@@ -12,17 +12,19 @@
 - Gradle 7.3
 - 图标：![图标](https://cdn.nlark.com/yuque/0/2022/svg/1233924/1671960578501-62f98da8-735e-4f4a-b8af-f873500d969b.svg)
 
-
 ## 代码示例
+
 > 官方也提供了简单的代码示例: [官方示例](https://zhuanlan.zhihu.com/p/400059601)
 
 未完待续 ...
 
-| Code Sample                    | Description                          |
-|--------------------------------|--------------------------------------|
-| [PSI](./psi)                   | PSI 获取、修改、删除、跳转等                     |
-| [Module](./module)             | 自定义模块类型，可通过 File-> New-> Module 新建模块 |
-| [Compatible](./compatible_api) | sdk 兼容性问题                            |
+| Code Sample                    | Description                                                                                                                                 |
+|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| [PSI](./psi)                   | PSI 获取、创建、修改、删除、跳转等 <br/>![generate](https://cdn.nlark.com/yuque/0/2022/gif/1233924/1671961958581-d32c51f0-76e9-4ed5-a0e9-c9827deea23c.gif) |
+| [LineMarker](./lineMarker)     | 行标记 <br/> ![lineMarkerGif](https://cdn.nlark.com/yuque/0/2022/gif/1233924/1672046795673-1e81dfcd-11a5-4729-9b3a-ba8285c44de2.gif)           |
+| [Reference](./reference)       | // TODO 代码引用                                                                                                                                |
+| [Module](./module)             | // TODO 自定义模块类型，可通过 File-> New-> Module 新建模块                                                                                                |
+| [Compatible](./compatible_api) | // TODO sdk 兼容性问题                                                                                                                           |
 
 ## 运行
 
