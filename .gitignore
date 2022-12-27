@@ -9,3 +9,4 @@
 *.ipr
 */.gradle
 */build
+gradle-wrapper.jar

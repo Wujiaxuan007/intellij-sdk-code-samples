@@ -1,0 +1,30 @@
+<idea-plugin>
+    <id>pers.wjx.plugin.demo.lineMarker</id>
+    <name>LineMarker</name>
+    <vendor email="wujiaxuan1995@gmail.com">@卖话的人</vendor>
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.java</depends>
+    <description>
+        <![CDATA[
+      hello
+      <br>See the <a href="https://plugins.jetbrains.com/docs/intellij/line-marker-provider.html#define-a-line-marker-provider">line-marker-provider</a> for more information.
+    ]]>
+    </description>
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <psi.referenceContributor
+                implementation="pers.wjx.plugin.demo.reference.JsonRefContributor"
+                order="first" language="JSON"/>
+        <psi.referenceContributor
+                implementation="pers.wjx.plugin.demo.reference.XmlRefContributor"
+                order="first" language="XML"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>

@@ -3,14 +3,19 @@
 行标记可以用图标来标注代码。这些标记可以为相关代码提供导航目标。
 
 ![lineMarker](https://cdn.nlark.com/yuque/0/2022/png/1233924/1672046185453-ad55d33c-ef2c-4675-87a2-5618b79cda19.png)
+
 ## Quickstart
 
 > [官方示例](https://github.com/JetBrains/intellij-sdk-code-samples/blob/main/simple_language_plugin/src/main/java/org/intellij/sdk/language/SimpleLineMarkerProvider.java)
 
+### 需求
+
+对 Java 类行标记：
+
+1. Xml 文件名若为类名，则添加到标记结果。ClassName.xml
+2. Json 属性 key 为 panda，值为类名则添加到标记结果。"panda":"ClassName"
+
 ### LineMarkerProvider
-**对 Java 类行标记**
-1. Xml 文件名若为类名，则添加到标记结果
-2. Json 属性 key 为 panda，值为类名则添加到标记结果
 
 | File                                                    | Description                                                                                                             |
 |---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
