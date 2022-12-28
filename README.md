@@ -24,7 +24,8 @@
 | [LineMarker](./lineMarker)     | 行标记 <br/> ![lineMarkerGif](https://cdn.nlark.com/yuque/0/2022/gif/1233924/1672046795673-1e81dfcd-11a5-4729-9b3a-ba8285c44de2.gif)           |
 | [Reference](./reference)       | 代码引用  <br/> ![referenceGif](https://cdn.nlark.com/yuque/0/2022/gif/1233924/1672128427025-a7032dbb-32f2-4408-9297-fda49cd884dd.gif)                                                                                                                                       |
 | [Module](./module)             | // TODO 自定义模块类型，可通过 File-> New-> Module 新建模块                                                                                                |
-| [Compatible](./compatible_api) | // TODO sdk 兼容性问题                                                                                                                           |
+| [Compatible](./compatible_api) | // TODO sdk 兼容性问题                                                                                                 |
+| [MessageBus](./messagebus) | // TODO MessageBus                                                                                                 |
 
 ## 运行
 
