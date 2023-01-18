@@ -1,0 +1,35 @@
+<idea-plugin>
+    <id>pers.wjx.plugin.demo.search</id>
+    <name>Search</name>
+    <vendor email="wujiaxuan1995@gmail.com">@卖话的人</vendor>
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.java</depends>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <fileType name="PANDA"
+                  implementationClass="pers.wjx.plugin.demo.search.PandaFileType"
+                  language=""
+                  fieldName="INSTANCE"
+                  extensions="panda"/>
+
+        <fileType name="WHITE PANDA"
+                  implementationClass="pers.wjx.plugin.demo.search.WhitePandaFileType"
+                  fieldName="INSTANCE"
+                  language=""
+                  extensions="whitePanda"
+                  order="first"/>
+
+        <projectService
+                serviceImplementation="pers.wjx.plugin.demo.search.SearchPandaConfiguration"/>
+        <searchEverywhereContributor
+                implementation="pers.wjx.plugin.demo.search.PandaSearchContributor$Factory"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
