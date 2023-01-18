@@ -18,14 +18,14 @@
 
 未完待续 ...
 
-| Code Sample                    | Description                                                                                                                               |
-|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| Code Sample                    | Description                                                                                                                                |
+|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | [PSI](./psi)                   | PSI 获取、创建、修改、删除、跳转等 <br/>![generate](https://cdn.nlark.com/yuque/0/2022/gif/1233924/1671961958581-d32c51f0-76e9-4ed5-a0e9-c9827deea23c.gif) |
-| [LineMarker](./lineMarker)     | 行标记 <br/> ![lineMarkerGif](https://cdn.nlark.com/yuque/0/2022/gif/1233924/1672046795673-1e81dfcd-11a5-4729-9b3a-ba8285c44de2.gif)         |
-| [Reference](./reference)       | 代码引用                                                                                                                                      |
-| [Search Everywhere](./search)  | 查找                                                                                                                                        |
- | [Module](./module)             | // TODO 自定义模块类型，可通过 File-> New-> Module 新建模块                                                                                              |
- | [Compatible](./compatible_api) | // TODO sdk 兼容性问题                                                                                                                         |
+| [LineMarker](./lineMarker)     | 行标记 <br/> ![lineMarkerGif](https://cdn.nlark.com/yuque/0/2022/gif/1233924/1672046795673-1e81dfcd-11a5-4729-9b3a-ba8285c44de2.gif)          |
+| [Reference](./reference)       | 代码引用  <br/> ![XmlRefContributorGif](https://cdn.nlark.com/yuque/0/2022/gif/1233924/1672128287232-513197df-19cf-4ab7-9e54-97bb095d22bc.gif) |
+| [Search Everywhere](./search)  | 查找 <br/> ![效果](https://cdn.nlark.com/yuque/0/2023/gif/1233924/1674029883812-dc7b2b37-7cda-4e98-a1bc-5b11a174311e.gif)|
+| [Module](./module)             | // TODO 自定义模块类型，可通过 File-> New-> Module 新建模块                                                                                               |
+| [Compatible](./compatible_api) | // TODO sdk 兼容性问题                                                                                                                          |
 
 ## 运行
 
