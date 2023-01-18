@@ -1,6 +1,6 @@
 # Reference [![JetBrains IntelliJ Platform SDK Docs](https://jb.gg/badges/docs.svg)][docs]
 
-> 解析引用，能够从 PSI 元素的使用 (访问变量、调用方法等) 导航到该元素的声明( 变量的定义、方法声明等) 。
+> 解析引用 (resolve)，能够从 PSI 元素的使用 (访问变量、调用方法等) 导航到该元素的声明 (变量的定义、方法声明等) 。反之，获取引用 (getReferences) ，能够从该元素的声明 (变量的定义、方法声明等) 获取其他 PSI 元素的使用 (访问变量、调用方法等) 。
 
 作为引用的 PSI 元素 (Navigate | Declaration or Usages) 都需要实现 PsiElement.getReference() 方法， 并从该方法返回 PsiReference 实现。
 
@@ -33,8 +33,10 @@ public interface PsiElement extends UserDataHolder, Iconable {
 
 ### 需求
 
-1. Xml Tag 为 panda, 值若为项目存在的 java 全类名，则引用类。<panda>package.ClassName</panda>
-2. Json 属性 key 为 panda，当值为 "xxx@??"时，"xxx" 引用类，"??"引用类下的字段。"panda": "package.ClassNam@age"
+1. Xml Tag 为 panda, 值为 java 全类名，则引用类。 <panda> xxx</panda>
+2. Json 属性 key 为 panda，值为 "xxx@??" 时，"xxx" 引用类，"??" 引用类下的字段。 "panda": "package.ClassNam@age"
+3. 当被引用类和字段 rename 后, “xxx” 和 “??” 的值也同步修改。
+
 
 ### PsiReferenceContributor
 
