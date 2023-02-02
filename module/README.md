@@ -15,6 +15,8 @@
 1. panda.yml 为熊猫简介，包括名字、年龄、性别、照片、爱好。
 2. 为了更方便的查看熊猫的照片，panda.yml 的编辑器需要提供新可视化 Tab。
 
+  ![editro](https://cdn.nlark.com/yuque/0/2023/png/1233924/1675329665887-73fab485-3f3a-426e-b9f0-8257fb07c27d.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
+
 ### 代码
 
 | File                                                    | Description                                    |
