@@ -1,0 +1,25 @@
+<idea-plugin>
+    <id>pers.wjx.plugin.demo.module</id>
+    <name>PandaModule</name>
+    <vendor email="wujiaxuan1995@gmail.com">@卖话的人</vendor>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.java</depends>
+    <depends>org.jetbrains.plugins.yaml</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <moduleType
+                id="PANDA_MODULE"
+                implementationClass="pers.wjx.plugin.demo.module.PandaModuleType"/>
+        <moduleBuilder
+                builderClass="pers.wjx.plugin.demo.module.PandaModuleBuilder"/>
+        <fileEditorProvider implementation="pers.wjx.plugin.demo.module.PandaYmlFileProvider" order="first"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
