@@ -27,7 +27,10 @@
 | [Reference](./reference)       | 代码引用  <br/> ![XmlRefContributorGif](https://cdn.nlark.com/yuque/0/2022/gif/1233924/1672128287232-513197df-19cf-4ab7-9e54-97bb095d22bc.gif) |
 | [Search Everywhere](./search)  | 查找 <br/> ![效果](https://cdn.nlark.com/yuque/0/2023/gif/1233924/1674029883812-dc7b2b37-7cda-4e98-a1bc-5b11a174311e.gif)|
 | [ModuleType](./module)         | 自定义模块类型 ![效果](https://cdn.nlark.com/yuque/0/2023/gif/1233924/1675326998264-a25a8e81-fc95-4550-a6ac-4d0df3312677.gif)|
-| [Compatible](./compatible_api) | // TODO sdk 兼容性问题                                                                                                                         |
+| [ProgressBar](./progressbar) | // TODO 进度条 & 自定义配置  |
+| [theme](./theme) | // TODO 主题|
+| [Compatible](./compatible_api) | // TODO sdk 兼容性问题    |
+| [Error](./error) | // TODO 错误反馈，一键提交 issue 到 Github   |
 
 ## 运行
 
