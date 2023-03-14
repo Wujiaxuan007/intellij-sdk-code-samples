@@ -22,6 +22,7 @@
 
 | Code Sample                    | Description                                                                                                                               |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| [问题沉淀](./issue) | // 开发过程中遇到的一些问题的沉淀  |
 | [PSI](./psi)                   | PSI 获取、创建、修改、删除、跳转等 <br/>![generate](https://cdn.nlark.com/yuque/0/2022/gif/1233924/1671961958581-d32c51f0-76e9-4ed5-a0e9-c9827deea23c.gif) |
 | [LineMarker](./lineMarker)     | 行标记 <br/> ![lineMarkerGif](https://cdn.nlark.com/yuque/0/2022/gif/1233924/1672046795673-1e81dfcd-11a5-4729-9b3a-ba8285c44de2.gif)         |
 | [Reference](./reference)       | 代码引用  <br/> ![XmlRefContributorGif](https://cdn.nlark.com/yuque/0/2022/gif/1233924/1672128287232-513197df-19cf-4ab7-9e54-97bb095d22bc.gif) |
