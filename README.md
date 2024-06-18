@@ -29,7 +29,7 @@
 | [Reference](./reference)       | 代码引用  <br/> ![XmlRefContributorGif](https://cdn.nlark.com/yuque/0/2022/gif/1233924/1672128287232-513197df-19cf-4ab7-9e54-97bb095d22bc.gif) |
 | [Search Everywhere](./search)  | 查找 <br/> ![效果](https://cdn.nlark.com/yuque/0/2023/gif/1233924/1674029883812-dc7b2b37-7cda-4e98-a1bc-5b11a174311e.gif)|
 | [ModuleType](./module)         | 自定义模块类型 ![效果](https://cdn.nlark.com/yuque/0/2023/gif/1233924/1675326998264-a25a8e81-fc95-4550-a6ac-4d0df3312677.gif)|
-| [theme](./theme) | // TODO 主题|
+| [theme](https://github.com/Wujiaxuan007/jetbrains-carol-theme) | Carol 主题 ![image](https://github.com/Wujiaxuan007/intellij-sdk-code-samples/assets/41990342/86dae6b5-3308-41f5-bedf-229dd6b3f505)|
 | [Compatible](./compatible_api) | // TODO sdk 兼容性问题    |
 | [Error](https://github.com/Wujiaxuan007/YourProgressBar/blob/master/src/main/kotlin/pers/wjx/plugin/progress/error/ErrorSubmitter.kt) | 错误反馈，一键提交 issue 到 Github ![image](https://user-images.githubusercontent.com/41990342/230410184-ccdf1cb1-b230-4054-835e-c67985070e29.png) <br/> |
 
